@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PreferenceSpecifiers</key>
+	<array>
+		<dict>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+			<key>Title</key>
+			<string>Summer at 6, at 19, and at 26. At six, suddenly moved waaaaay out in the sticks, the whole family sleeping in tents and using the outhouse, and, when the summer came, realizing that our new home was directly in the path that the local rattlesnakes took to get to the creek. At 19, coming home for a summer after living in Berlin for two years, transformed...and not. At 26, coming home for a summer after living in London for two years; dazed, confused. All the later summers seem somehow—through scent and heat and sounds—to spiral back to that first summer, wondering when when we hear the soft rattling again. 
+
+The Summer the Rattlesnakes Came forms an internal trilogy of sorts with Smooth Second Bastard and The World Was White, all reflections on my upbringing in the Sierra Nevada mountains.
+
+This work is the first P.o.E.M.M. to include audio. We collaborated with internationally-renowned Canadian composer Paul Dolden, who wrote and and recorded the interactive score.
+
+Programming by Serge Maheu &amp; Bruno Nadeau, from original code by Bruno Nadeau.
+based on the NextText architecture
+
+Version 1.0.2
+
+2007 - 2013 ©  Jason Edward Lewis</string>
+		</dict>
+	</array>
+	<key>StringsTable</key>
+	<string>About</string>
+</dict>
+</plist>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>03976C99-6F64-4B51-8D29-81F4F67FCDE1</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Rattlesnakes</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>7599C309-3C5C-45CF-BB54-50158D0BF3E9</key>
+		<string>svn+ssh://svn.hexagram.ca/scm/hex-prj-obx/Rattlesnakes/iOS/trunk</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Rattlesnakes.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>7599C309-3C5C-45CF-BB54-50158D0BF3E9</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>7599C309-3C5C-45CF-BB54-50158D0BF3E9</key>
+		<string>svn+ssh://svn.hexagram.ca/scm/hex-prj-obx/Rattlesnakes</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>svn+ssh://svn.hexagram.ca/scm/hex-prj-obx/Rattlesnakes/iOS/trunk/Rattlesnakes.xcodeproj</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>7599C309-3C5C-45CF-BB54-50158D0BF3E9</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryBranchesRelativeLocationKey</key>
+			<string>iOS/branches</string>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlRepositoryTagsRelativeLocationKey</key>
+			<string>iOS/tags</string>
+			<key>IDESourceControlRepositoryTrunkRelativeLocationKey</key>
+			<string>iOS/trunk</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>7599C309-3C5C-45CF-BB54-50158D0BF3E9</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Rattlesnakes</string>
+		</dict>
+	</array>
+</dict>
+</plist>
