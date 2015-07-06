@@ -6,7 +6,7 @@ Technical Lead: Bruno Nadeau. <br/>
 See www.poemm.net and www.nexttext.net for more information. <br/>
 To download the iOS app, visit: https://itunes.apple.com/app/rattlesnakes/id684327074?ls=1&mt=8 <br/>
 
-Copyright (C) <2015>  <Jason Lewis>
+Copyright (C) 2015  Jason Edward Lewis
   
     This program is free software: you can redistribute it and/or modify
     it under the terms of the BSD 3 clause with added Attribution clause license.
