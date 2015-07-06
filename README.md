@@ -15,3 +15,5 @@ To download the iOS app, visit: https://itunes.apple.com/app/rattlesnakes/id6843
     but WITHOUT ANY WARRANTY; without even the implied warranty of
     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
     BSD 3 clause with added Attribution clause License for more details.
+    
+ This code is offered as is. We cannot provide technical support for it.
