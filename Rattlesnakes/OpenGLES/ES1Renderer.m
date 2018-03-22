@@ -148,7 +148,7 @@ static BOOL VIEW_PORT_IS_FRUSTRUM = NO;
     // This call is redundant, but needed if dealing with multiple renderbuffers.
     glBindRenderbufferOES(GL_RENDERBUFFER_OES, colorRenderbuffer);
     [context presentRenderbuffer:GL_RENDERBUFFER_OES];
-    glBindFramebuffer(GL_FRAMEBUFFER_OES, msaaFramebuffer); 
+    glBindFramebufferOES(GL_FRAMEBUFFER_OES, msaaFramebuffer); 
 }
 
 - (void) renderRattlesnakes:(Rattlesnakes*)rattlesnakes
@@ -167,7 +167,7 @@ static BOOL VIEW_PORT_IS_FRUSTRUM = NO;
     if(multiSampling) {
         glBindRenderbufferOES(GL_RENDERBUFFER_OES, colorRenderbuffer);
         glBindFramebufferOES(GL_FRAMEBUFFER_OES, msaaFramebuffer);
-    } else glBindFramebuffer(GL_FRAMEBUFFER_OES, defaultFramebuffer);
+    } else glBindFramebufferOES(GL_FRAMEBUFFER_OES, defaultFramebuffer);
     
     glViewport(0, 0, backingWidth, backingHeight);
     glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
@@ -193,6 +193,8 @@ static BOOL VIEW_PORT_IS_FRUSTRUM = NO;
     
     // This application only creates a single color renderbuffer which is already bound at this point.
     // This call is redundant, but needed if dealing with multiple renderbuffers.
+    
+    //VICTOR - FIX BACKGROUND PROCESS CRASH
     glBindRenderbufferOES(GL_RENDERBUFFER_OES, colorRenderbuffer);
     [context presentRenderbuffer:GL_RENDERBUFFER_OES];
     

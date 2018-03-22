@@ -171,7 +171,10 @@ static EAGLView *sharedInstance;
         [theTexts addObject:text];
     }
 
+    //VICTOR - FIX EMPTY LINE REMOVAL
     //remove empty lines
+    NSMutableArray *toDelete = [NSMutableArray array];
+    
     for(OKTextObject *aText in theTexts)
     {
         //NSLog(@"Number of sentences: %d",[aText.sentenceObjects count]);
@@ -184,10 +187,17 @@ static EAGLView *sharedInstance;
             }*/
             if([[temp sentence]length]<1){
                 //NSLog(@"REMOVE A LINE");
-                [aText.sentenceObjects removeObject:temp];
+               
+                //[aText.sentenceObjects removeObject:temp];
+                [toDelete addObject:temp];
             }
         }
+        
+        if ([theTexts lastObject] == aText){
+            [theTexts removeObjectsInArray:toDelete];
+        }
     }
+    
     
     
     if(rattlesnakes) [rattlesnakes release];

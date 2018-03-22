@@ -189,8 +189,9 @@ static float TINT[] = {1.0f, 1.0f, 1.0f, 1.0f};
 
 - (BOOL) didTouchHotCorner:(CGPoint)aPoint
 {
-    CGPoint leftHotCorner = CGPointMake(0.0f, self.view.frame.size.width);
-    CGPoint rightHotCorner = CGPointMake(self.view.frame.size.height, self.view.frame.size.width);
+    //VICTOR - PUT BACK HOTCORNERS
+    CGPoint leftHotCorner = CGPointMake(0.0f, self.view.frame.size.height);
+    CGPoint rightHotCorner = CGPointMake(self.view.frame.size.width, self.view.frame.size.height);
     
     float hotCornerRadius = [[[OKInfoViewProperties objectForKey:@"Interface"] objectForKey:@"hot_corner_radius"] floatValue];
     

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		570E92992045CBFC004526EF /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 570E92982045CBFC004526EF /* Media.xcassets */; };
 		95098BE6173A89EE0082F041 /* snakes.txt in Resources */ = {isa = PBXBuildFile; fileRef = 95098BE5173A89EE0082F041 /* snakes.txt */; };
 		9514219C1757A42800FD256D /* Archive.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 951421991757A42800FD256D /* Archive.ttf */; };
 		9514219F1757A4CB00FD256D /* Archive.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 951421991757A42800FD256D /* Archive.ttf */; };
@@ -61,9 +62,6 @@
 		95FEE57E1733F79500733CE8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 95FEE57C1733F79500733CE8 /* InfoPlist.strings */; };
 		95FEE5801733F79500733CE8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 95FEE57F1733F79500733CE8 /* main.m */; };
 		95FEE5841733F79500733CE8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 95FEE5831733F79500733CE8 /* AppDelegate.m */; };
-		95FEE5861733F79500733CE8 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 95FEE5851733F79500733CE8 /* Default.png */; };
-		95FEE5881733F79500733CE8 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 95FEE5871733F79500733CE8 /* Default@2x.png */; };
-		95FEE58A1733F79500733CE8 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 95FEE5891733F79500733CE8 /* Default-568h@2x.png */; };
 		95FEE5921733F79500733CE8 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95FEE5911733F79500733CE8 /* SenTestingKit.framework */; };
 		95FEE5931733F79500733CE8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95FEE5731733F79500733CE8 /* UIKit.framework */; };
 		95FEE5941733F79500733CE8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95FEE5751733F79500733CE8 /* Foundation.framework */; };
@@ -234,6 +232,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		570E92982045CBFC004526EF /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 		95098BE5173A89EE0082F041 /* snakes.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = snakes.txt; sourceTree = "<group>"; };
 		951421991757A42800FD256D /* Archive.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Archive.ttf; sourceTree = "<group>"; };
 		951421B11757F24500FD256D /* StaticBold36.fnt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = StaticBold36.fnt; sourceTree = "<group>"; };
@@ -632,6 +631,7 @@
 		95FEE5671733F79500733CE8 = {
 			isa = PBXGroup;
 			children = (
+				570E92982045CBFC004526EF /* Media.xcassets */,
 				95FEE5791733F79500733CE8 /* Rattlesnakes */,
 				95FEE5971733F79500733CE8 /* RattlesnakesTests */,
 				95FEE5721733F79500733CE8 /* Frameworks */,
@@ -1427,6 +1427,7 @@
 				TargetAttributes = {
 					95FEE56F1733F79500733CE8 = {
 						DevelopmentTeam = 6B68QQG3FR;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -1454,9 +1455,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				95FEE57E1733F79500733CE8 /* InfoPlist.strings in Resources */,
-				95FEE5861733F79500733CE8 /* Default.png in Resources */,
-				95FEE5881733F79500733CE8 /* Default@2x.png in Resources */,
-				95FEE58A1733F79500733CE8 /* Default-568h@2x.png in Resources */,
 				95FEE75A173423BF00733CE8 /* Default-568h@2x.png in Resources */,
 				95FEE75B173423BF00733CE8 /* Default-Landscape.png in Resources */,
 				95FEE75C173423BF00733CE8 /* Default-Landscape@2x.png in Resources */,
@@ -1544,6 +1542,7 @@
 				95E55A94175E868F00A5B3EB /* StaticBold.ttf in Resources */,
 				954829EC1890764000BA1D18 /* death.png in Resources */,
 				951421B31757F24900FD256D /* StaticBold36.fnt in Resources */,
+				570E92992045CBFC004526EF /* Media.xcassets in Resources */,
 				951421B41757F24900FD256D /* StaticBold36.png in Resources */,
 				95213F231762223B000CE162 /* README.md in Resources */,
 				954829ED1890764000BA1D18 /* death@2x.png in Resources */,
@@ -1740,7 +1739,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				PROVISIONING_PROFILE = "0CD2DB78-5F63-46B4-9483-670E58C3B6B2";
@@ -1755,20 +1754,28 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMPRESS_PNG_FILES = NO;
+				DEVELOPMENT_TEAM = 6B68QQG3FR;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Rattlesnakes/Rattlesnakes-Prefix.pch";
 				HEADER_SEARCH_PATHS = /usr/include/libxml2;
 				INFOPLIST_FILE = "Rattlesnakes/Rattlesnakes-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/Rattlesnakes/TestFlightSDK1.2.5\"",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.obxlabs.Rattlesnakes;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "2dd49e71-7f5c-4368-bc62-a1a08d47635e";
-				SDKROOT = iphoneos7.0;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
 				WRAPPER_EXTENSION = app;
 			};
 			name = "Ad hoc";
@@ -1816,7 +1823,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				ONLY_ACTIVE_ARCH = YES;
 				PROVISIONING_PROFILE = "61898E58-F707-4711-A6A2-D6420ED25D7E";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "61898E58-F707-4711-A6A2-D6420ED25D7E";
@@ -1844,7 +1851,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				PROVISIONING_PROFILE = "5061750F-9081-414E-B41A-4D8BFAFBA910";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "5061750F-9081-414E-B41A-4D8BFAFBA910";
@@ -1858,21 +1865,30 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMPRESS_PNG_FILES = NO;
+				COPY_PHASE_STRIP = YES;
+				DEVELOPMENT_TEAM = 6B68QQG3FR;
+				GCC_OPTIMIZATION_LEVEL = s;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Rattlesnakes/Rattlesnakes-Prefix.pch";
 				HEADER_SEARCH_PATHS = /usr/include/libxml2;
 				INFOPLIST_FILE = "Rattlesnakes/Rattlesnakes-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/Rattlesnakes/TestFlightSDK1.2.5\"",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.obxlabs.Rattlesnakes;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "2dd49e71-7f5c-4368-bc62-a1a08d47635e";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "2dd49e71-7f5c-4368-bc62-a1a08d47635e";
-				SDKROOT = iphoneos7.0;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -1881,20 +1897,29 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Jason Lewis (6B68QQG3FR)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMPRESS_PNG_FILES = NO;
+				DEVELOPMENT_TEAM = 6B68QQG3FR;
+				GCC_OPTIMIZATION_LEVEL = s;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Rattlesnakes/Rattlesnakes-Prefix.pch";
 				HEADER_SEARCH_PATHS = /usr/include/libxml2;
 				INFOPLIST_FILE = "Rattlesnakes/Rattlesnakes-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/Rattlesnakes/TestFlightSDK1.2.5\"",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.obxlabs.Rattlesnakes;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "1b5212da-cb74-494d-a80e-613bba690155";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "1b5212da-cb74-494d-a80e-613bba690155";
-				SDKROOT = iphoneos7.0;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
