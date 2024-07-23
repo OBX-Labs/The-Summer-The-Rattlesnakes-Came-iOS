@@ -13,7 +13,7 @@
 #import "OKTextManager.h"
 #import "DejalActivityView.h"
 #import "OKNavigationController.h"
-#import "AppDelegate.h"
+#import <OBXKit/AppDelegate.h>
 #import "EAGLView.h"
 
 static float UITEXTVIEW_EDGEINSET = 16.0f; // Hard coded value, Apple does not provide this answer but it works for iOS 4.0+ and iPhone and iPad

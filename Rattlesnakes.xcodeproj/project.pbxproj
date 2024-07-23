@@ -303,7 +303,6 @@
 		95FEE57D1733F79500733CE8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		95FEE57F1733F79500733CE8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		95FEE5811733F79500733CE8 /* Rattlesnakes-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Rattlesnakes-Prefix.pch"; sourceTree = "<group>"; };
-		95FEE5821733F79500733CE8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		95FEE5831733F79500733CE8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		95FEE5851733F79500733CE8 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		95FEE5871733F79500733CE8 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
@@ -656,7 +655,6 @@
 			children = (
 				95213F1D1762223B000CE162 /* TestFlightSDK1.2.5 */,
 				9539CAE817382974007579FD /* CMTraerPhysics */,
-				95FEE5821733F79500733CE8 /* AppDelegate.h */,
 				95FEE5831733F79500733CE8 /* AppDelegate.m */,
 				95FEE76E17343B0400733CE8 /* OKPoEMM */,
 				95FEE734173423BE00733CE8 /* Resources */,

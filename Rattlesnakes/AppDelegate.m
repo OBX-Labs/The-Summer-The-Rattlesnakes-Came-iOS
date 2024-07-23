@@ -6,7 +6,7 @@
 //  Copyright (c) 2013 Serge Maheu. All rights reserved.
 //
 
-#import "AppDelegate.h"
+#import <OBXKit/AppDelegate.h>
 #import "EAGLView.h"
 #import "OKPoEMM.h"
 #import "OKPreloader.h"

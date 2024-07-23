@@ -15,7 +15,7 @@
 #import "OKSentenceObject.h"
 #import "OKWordObject.h"
 
-#import "AppDelegate.h"
+#import <OBXKit/AppDelegate.h>
 #import "OKPoEMMProperties.h"
 #import "OKTextManager.h"
 

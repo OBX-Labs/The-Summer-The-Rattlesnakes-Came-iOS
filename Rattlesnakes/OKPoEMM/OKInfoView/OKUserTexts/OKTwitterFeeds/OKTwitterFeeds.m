@@ -15,7 +15,7 @@
 #import "OKTextManager.h"
 #import "DejalActivityView.h"
 #import "OKNavigationController.h"
-#import "AppDelegate.h"
+#import <OBXKit/AppDelegate.h>
 #import "EAGLView.h"
 
 static float TEXTFIELD_PADDING = 10.0f;

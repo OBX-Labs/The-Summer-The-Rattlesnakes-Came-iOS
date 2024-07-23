@@ -14,7 +14,7 @@
 #import "OKPoEMMProperties.h"
 #import "DejalActivityView.h"
 #import "OKNavigationController.h"
-#import "AppDelegate.h"
+#import <OBXKit/AppDelegate.h>
 #import "EAGLView.h"
 
 static float SEPERATOR_TINT[] = {0.35f, 0.35f, 0.35f, 1.0f};
