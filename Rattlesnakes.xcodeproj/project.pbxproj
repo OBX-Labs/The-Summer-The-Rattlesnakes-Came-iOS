@@ -9,11 +9,9 @@
 /* Begin PBXBuildFile section */
 		570E92992045CBFC004526EF /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 570E92982045CBFC004526EF /* Media.xcassets */; };
 		95098BE6173A89EE0082F041 /* snakes.txt in Resources */ = {isa = PBXBuildFile; fileRef = 95098BE5173A89EE0082F041 /* snakes.txt */; };
-		9514219C1757A42800FD256D /* Archive.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 951421991757A42800FD256D /* Archive.ttf */; };
 		9514219F1757A4CB00FD256D /* Archive.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 951421991757A42800FD256D /* Archive.ttf */; };
 		951421B31757F24900FD256D /* StaticBold36.fnt in Resources */ = {isa = PBXBuildFile; fileRef = 951421B11757F24500FD256D /* StaticBold36.fnt */; };
 		951421B41757F24900FD256D /* StaticBold36.png in Resources */ = {isa = PBXBuildFile; fileRef = 951421B21757F24600FD256D /* StaticBold36.png */; };
-		951421B61757F28A00FD256D /* StaticBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 951421B51757F28A00FD256D /* StaticBold.ttf */; };
 		95213F221762223B000CE162 /* libTestFlight.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 95213F1E1762223B000CE162 /* libTestFlight.a */; };
 		95213F231762223B000CE162 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 95213F1F1762223B000CE162 /* README.md */; };
 		95213F241762223B000CE162 /* release_notes.md in Resources */ = {isa = PBXBuildFile; fileRef = 95213F201762223B000CE162 /* release_notes.md */; };
@@ -62,9 +60,6 @@
 		95FEE57E1733F79500733CE8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 95FEE57C1733F79500733CE8 /* InfoPlist.strings */; };
 		95FEE5801733F79500733CE8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 95FEE57F1733F79500733CE8 /* main.m */; };
 		95FEE5841733F79500733CE8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 95FEE5831733F79500733CE8 /* AppDelegate.m */; };
-		95FEE5921733F79500733CE8 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95FEE5911733F79500733CE8 /* SenTestingKit.framework */; };
-		95FEE5931733F79500733CE8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95FEE5731733F79500733CE8 /* UIKit.framework */; };
-		95FEE5941733F79500733CE8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95FEE5751733F79500733CE8 /* Foundation.framework */; };
 		95FEE6BB1733FF9500733CE8 /* OKBitmapFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 95FEE6A61733FF9500733CE8 /* OKBitmapFont.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		95FEE6BC1733FF9500733CE8 /* OKImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 95FEE6A81733FF9500733CE8 /* OKImage.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		95FEE6BD1733FF9500733CE8 /* OKTexture2D.m in Sources */ = {isa = PBXBuildFile; fileRef = 95FEE6AA1733FF9500733CE8 /* OKTexture2D.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -108,7 +103,6 @@
 		95FEE72C1734120700733CE8 /* PerlinTexture.mm in Sources */ = {isa = PBXBuildFile; fileRef = 95FEE7211734120700733CE8 /* PerlinTexture.mm */; };
 		95FEE72D1734120700733CE8 /* TessGlyph.mm in Sources */ = {isa = PBXBuildFile; fileRef = 95FEE7231734120700733CE8 /* TessGlyph.mm */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		95FEE72F1734120700733CE8 /* Word.m in Sources */ = {isa = PBXBuildFile; fileRef = 95FEE7271734120700733CE8 /* Word.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		95FEE7321734125A00733CE8 /* Rattlesnakes.mm in Sources */ = {isa = PBXBuildFile; fileRef = 95FEE7311734125A00733CE8 /* Rattlesnakes.mm */; };
 		95FEE73317341AEA00733CE8 /* Rattlesnakes.mm in Sources */ = {isa = PBXBuildFile; fileRef = 95FEE7311734125A00733CE8 /* Rattlesnakes.mm */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		95FEE75A173423BF00733CE8 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 95FEE73F173423BF00733CE8 /* Default-568h@2x.png */; };
 		95FEE75B173423BF00733CE8 /* Default-Landscape.png in Resources */ = {isa = PBXBuildFile; fileRef = 95FEE740173423BF00733CE8 /* Default-Landscape.png */; };
@@ -219,16 +213,6 @@
 		95FEE87B17344D4500733CE8 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 95FEE87717344D4500733CE8 /* Icon@2x.png */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		95FEE5951733F79500733CE8 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 95FEE5681733F79500733CE8 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 95FEE56F1733F79500733CE8;
-			remoteInfo = Rattlesnakes;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		570E92982045CBFC004526EF /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 		95098BE5173A89EE0082F041 /* snakes.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = snakes.txt; sourceTree = "<group>"; };
@@ -308,7 +292,6 @@
 		95FEE5851733F79500733CE8 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		95FEE5871733F79500733CE8 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		95FEE5891733F79500733CE8 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		95FEE5901733F79500733CE8 /* RattlesnakesTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RattlesnakesTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		95FEE5911733F79500733CE8 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		95FEE6A51733FF9500733CE8 /* OKBitmapFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OKBitmapFont.h; sourceTree = "<group>"; };
 		95FEE6A61733FF9500733CE8 /* OKBitmapFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OKBitmapFont.m; sourceTree = "<group>"; };
@@ -562,16 +545,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		95FEE58C1733F79500733CE8 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				95FEE5921733F79500733CE8 /* SenTestingKit.framework in Frameworks */,
-				95FEE5931733F79500733CE8 /* UIKit.framework in Frameworks */,
-				95FEE5941733F79500733CE8 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -636,7 +609,6 @@
 			isa = PBXGroup;
 			children = (
 				95FEE5701733F79500733CE8 /* Rattlesnakes.app */,
-				95FEE5901733F79500733CE8 /* RattlesnakesTests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1371,25 +1343,6 @@
 			productReference = 95FEE5701733F79500733CE8 /* Rattlesnakes.app */;
 			productType = "com.apple.product-type.application";
 		};
-		95FEE58F1733F79500733CE8 /* RattlesnakesTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 95FEE5A51733F79500733CE8 /* Build configuration list for PBXNativeTarget "RattlesnakesTests" */;
-			buildPhases = (
-				95FEE58B1733F79500733CE8 /* Sources */,
-				95FEE58C1733F79500733CE8 /* Frameworks */,
-				95FEE58D1733F79500733CE8 /* Resources */,
-				95FEE58E1733F79500733CE8 /* ShellScript */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				95FEE5961733F79500733CE8 /* PBXTargetDependency */,
-			);
-			name = RattlesnakesTests;
-			productName = RattlesnakesTests;
-			productReference = 95FEE5901733F79500733CE8 /* RattlesnakesTests.octest */;
-			productType = "com.apple.product-type.bundle";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -1419,7 +1372,6 @@
 			projectRoot = "";
 			targets = (
 				95FEE56F1733F79500733CE8 /* Rattlesnakes */,
-				95FEE58F1733F79500733CE8 /* RattlesnakesTests */,
 			);
 		};
 /* End PBXProject section */
@@ -1534,32 +1486,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		95FEE58D1733F79500733CE8 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9514219C1757A42800FD256D /* Archive.ttf in Resources */,
-				951421B61757F28A00FD256D /* StaticBold.ttf in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		95FEE58E1733F79500733CE8 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		95FEE56C1733F79500733CE8 /* Sources */ = {
@@ -1655,23 +1582,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		95FEE58B1733F79500733CE8 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				95FEE7321734125A00733CE8 /* Rattlesnakes.mm in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		95FEE5961733F79500733CE8 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 95FEE56F1733F79500733CE8 /* Rattlesnakes */;
-			targetProxy = 95FEE5951733F79500733CE8 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		95FEE57C1733F79500733CE8 /* InfoPlist.strings */ = {
@@ -1742,23 +1653,6 @@
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
 				WRAPPER_EXTENSION = app;
-			};
-			name = "Ad hoc";
-		};
-		95213F2917622556000CE162 /* Ad hoc */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Rattlesnakes.app/Rattlesnakes";
-				FRAMEWORK_SEARCH_PATHS = (
-					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
-					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Rattlesnakes/Rattlesnakes-Prefix.pch";
-				INFOPLIST_FILE = "RattlesnakesTests/RattlesnakesTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = octest;
 			};
 			name = "Ad hoc";
 		};
@@ -1889,40 +1783,6 @@
 			};
 			name = Release;
 		};
-		95FEE5A61733F79500733CE8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Rattlesnakes.app/Rattlesnakes";
-				FRAMEWORK_SEARCH_PATHS = (
-					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
-					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Rattlesnakes/Rattlesnakes-Prefix.pch";
-				INFOPLIST_FILE = "RattlesnakesTests/RattlesnakesTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = octest;
-			};
-			name = Debug;
-		};
-		95FEE5A71733F79500733CE8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Rattlesnakes.app/Rattlesnakes";
-				FRAMEWORK_SEARCH_PATHS = (
-					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
-					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Rattlesnakes/Rattlesnakes-Prefix.pch";
-				INFOPLIST_FILE = "RattlesnakesTests/RattlesnakesTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = octest;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1942,16 +1802,6 @@
 				95FEE5A31733F79500733CE8 /* Debug */,
 				95FEE5A41733F79500733CE8 /* Release */,
 				95213F2817622556000CE162 /* Ad hoc */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = "Ad hoc";
-		};
-		95FEE5A51733F79500733CE8 /* Build configuration list for PBXNativeTarget "RattlesnakesTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				95FEE5A61733F79500733CE8 /* Debug */,
-				95FEE5A71733F79500733CE8 /* Release */,
-				95213F2917622556000CE162 /* Ad hoc */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = "Ad hoc";
