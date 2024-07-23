@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		27ACC9782C4F535200493D22 /* OBXKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27ACC9772C4F535200493D22 /* OBXKit.framework */; };
+		27ACC9792C4F535200493D22 /* OBXKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 27ACC9772C4F535200493D22 /* OBXKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		570E92992045CBFC004526EF /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 570E92982045CBFC004526EF /* Media.xcassets */; };
 		95098BE6173A89EE0082F041 /* snakes.txt in Resources */ = {isa = PBXBuildFile; fileRef = 95098BE5173A89EE0082F041 /* snakes.txt */; };
 		9514219F1757A4CB00FD256D /* Archive.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 951421991757A42800FD256D /* Archive.ttf */; };
@@ -213,7 +215,22 @@
 		95FEE87B17344D4500733CE8 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 95FEE87717344D4500733CE8 /* Icon@2x.png */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		27ACC97A2C4F535200493D22 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				27ACC9792C4F535200493D22 /* OBXKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		27ACC9772C4F535200493D22 /* OBXKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = OBXKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		570E92982045CBFC004526EF /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 		95098BE5173A89EE0082F041 /* snakes.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = snakes.txt; sourceTree = "<group>"; };
 		951421991757A42800FD256D /* Archive.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Archive.ttf; sourceTree = "<group>"; };
@@ -538,6 +555,7 @@
 				95FEE70A1734061E00733CE8 /* QuartzCore.framework in Frameworks */,
 				95FEE708173405FC00733CE8 /* Accounts.framework in Frameworks */,
 				95FEE706173405F100733CE8 /* Social.framework in Frameworks */,
+				27ACC9782C4F535200493D22 /* OBXKit.framework in Frameworks */,
 				95FEE704173405E700733CE8 /* StoreKit.framework in Frameworks */,
 				95FEE5761733F79500733CE8 /* Foundation.framework in Frameworks */,
 				95FEE5781733F79500733CE8 /* CoreGraphics.framework in Frameworks */,
@@ -616,6 +634,7 @@
 		95FEE5721733F79500733CE8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				27ACC9772C4F535200493D22 /* OBXKit.framework */,
 				95F8B9A5175FAD6F000C5B34 /* AVFoundation.framework */,
 				95FEE7131734076C00733CE8 /* libxml2.dylib */,
 				95213F25176223DD000CE162 /* libz.dylib */,
@@ -1333,6 +1352,7 @@
 				95FEE56C1733F79500733CE8 /* Sources */,
 				95FEE56D1733F79500733CE8 /* Frameworks */,
 				95FEE56E1733F79500733CE8 /* Resources */,
+				27ACC97A2C4F535200493D22 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
