@@ -65,8 +65,6 @@
 		95FEE5921733F79500733CE8 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95FEE5911733F79500733CE8 /* SenTestingKit.framework */; };
 		95FEE5931733F79500733CE8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95FEE5731733F79500733CE8 /* UIKit.framework */; };
 		95FEE5941733F79500733CE8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95FEE5751733F79500733CE8 /* Foundation.framework */; };
-		95FEE59C1733F79500733CE8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 95FEE59A1733F79500733CE8 /* InfoPlist.strings */; };
-		95FEE59F1733F79500733CE8 /* RattlesnakesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 95FEE59E1733F79500733CE8 /* RattlesnakesTests.m */; };
 		95FEE6BB1733FF9500733CE8 /* OKBitmapFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 95FEE6A61733FF9500733CE8 /* OKBitmapFont.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		95FEE6BC1733FF9500733CE8 /* OKImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 95FEE6A81733FF9500733CE8 /* OKImage.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		95FEE6BD1733FF9500733CE8 /* OKTexture2D.m in Sources */ = {isa = PBXBuildFile; fileRef = 95FEE6AA1733FF9500733CE8 /* OKTexture2D.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -312,10 +310,6 @@
 		95FEE5891733F79500733CE8 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		95FEE5901733F79500733CE8 /* RattlesnakesTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RattlesnakesTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		95FEE5911733F79500733CE8 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		95FEE5991733F79500733CE8 /* RattlesnakesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RattlesnakesTests-Info.plist"; sourceTree = "<group>"; };
-		95FEE59B1733F79500733CE8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		95FEE59D1733F79500733CE8 /* RattlesnakesTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RattlesnakesTests.h; sourceTree = "<group>"; };
-		95FEE59E1733F79500733CE8 /* RattlesnakesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RattlesnakesTests.m; sourceTree = "<group>"; };
 		95FEE6A51733FF9500733CE8 /* OKBitmapFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OKBitmapFont.h; sourceTree = "<group>"; };
 		95FEE6A61733FF9500733CE8 /* OKBitmapFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OKBitmapFont.m; sourceTree = "<group>"; };
 		95FEE6A71733FF9500733CE8 /* OKImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OKImage.h; sourceTree = "<group>"; };
@@ -633,7 +627,6 @@
 			children = (
 				570E92982045CBFC004526EF /* Media.xcassets */,
 				95FEE5791733F79500733CE8 /* Rattlesnakes */,
-				95FEE5971733F79500733CE8 /* RattlesnakesTests */,
 				95FEE5721733F79500733CE8 /* Frameworks */,
 				95FEE5711733F79500733CE8 /* Products */,
 			);
@@ -699,25 +692,6 @@
 				95FEE5851733F79500733CE8 /* Default.png */,
 				95FEE5871733F79500733CE8 /* Default@2x.png */,
 				95FEE5891733F79500733CE8 /* Default-568h@2x.png */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		95FEE5971733F79500733CE8 /* RattlesnakesTests */ = {
-			isa = PBXGroup;
-			children = (
-				95FEE59D1733F79500733CE8 /* RattlesnakesTests.h */,
-				95FEE59E1733F79500733CE8 /* RattlesnakesTests.m */,
-				95FEE5981733F79500733CE8 /* Supporting Files */,
-			);
-			path = RattlesnakesTests;
-			sourceTree = "<group>";
-		};
-		95FEE5981733F79500733CE8 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				95FEE5991733F79500733CE8 /* RattlesnakesTests-Info.plist */,
-				95FEE59A1733F79500733CE8 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -1436,6 +1410,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 95FEE5671733F79500733CE8;
@@ -1563,7 +1538,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				95FEE59C1733F79500733CE8 /* InfoPlist.strings in Resources */,
 				9514219C1757A42800FD256D /* Archive.ttf in Resources */,
 				951421B61757F28A00FD256D /* StaticBold.ttf in Resources */,
 			);
@@ -1685,7 +1659,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				95FEE59F1733F79500733CE8 /* RattlesnakesTests.m in Sources */,
 				95FEE7321734125A00733CE8 /* Rattlesnakes.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1705,14 +1678,6 @@
 			isa = PBXVariantGroup;
 			children = (
 				95FEE57D1733F79500733CE8 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		95FEE59A1733F79500733CE8 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				95FEE59B1733F79500733CE8 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -1765,7 +1730,7 @@
 				GCC_PREFIX_HEADER = "Rattlesnakes/Rattlesnakes-Prefix.pch";
 				HEADER_SEARCH_PATHS = /usr/include/libxml2;
 				INFOPLIST_FILE = "Rattlesnakes/Rattlesnakes-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/Rattlesnakes/TestFlightSDK1.2.5\"",
@@ -1878,7 +1843,7 @@
 				GCC_PREFIX_HEADER = "Rattlesnakes/Rattlesnakes-Prefix.pch";
 				HEADER_SEARCH_PATHS = /usr/include/libxml2;
 				INFOPLIST_FILE = "Rattlesnakes/Rattlesnakes-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/Rattlesnakes/TestFlightSDK1.2.5\"",
@@ -1909,7 +1874,7 @@
 				GCC_PREFIX_HEADER = "Rattlesnakes/Rattlesnakes-Prefix.pch";
 				HEADER_SEARCH_PATHS = /usr/include/libxml2;
 				INFOPLIST_FILE = "Rattlesnakes/Rattlesnakes-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/Rattlesnakes/TestFlightSDK1.2.5\"",
