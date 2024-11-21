@@ -7,16 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		27ACC9782C4F535200493D22 /* OBXKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27ACC9772C4F535200493D22 /* OBXKit.framework */; };
-		27ACC9792C4F535200493D22 /* OBXKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 27ACC9772C4F535200493D22 /* OBXKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		570E92992045CBFC004526EF /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 570E92982045CBFC004526EF /* Media.xcassets */; };
 		95098BE6173A89EE0082F041 /* snakes.txt in Resources */ = {isa = PBXBuildFile; fileRef = 95098BE5173A89EE0082F041 /* snakes.txt */; };
 		9514219F1757A4CB00FD256D /* Archive.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 951421991757A42800FD256D /* Archive.ttf */; };
 		951421B31757F24900FD256D /* StaticBold36.fnt in Resources */ = {isa = PBXBuildFile; fileRef = 951421B11757F24500FD256D /* StaticBold36.fnt */; };
 		951421B41757F24900FD256D /* StaticBold36.png in Resources */ = {isa = PBXBuildFile; fileRef = 951421B21757F24600FD256D /* StaticBold36.png */; };
-		95213F221762223B000CE162 /* libTestFlight.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 95213F1E1762223B000CE162 /* libTestFlight.a */; };
-		95213F231762223B000CE162 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 95213F1F1762223B000CE162 /* README.md */; };
-		95213F241762223B000CE162 /* release_notes.md in Resources */ = {isa = PBXBuildFile; fileRef = 95213F201762223B000CE162 /* release_notes.md */; };
 		95213F26176223DD000CE162 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 95213F25176223DD000CE162 /* libz.dylib */; };
 		9524F6D917625CCA000F1574 /* Sounds in Resources */ = {isa = PBXBuildFile; fileRef = 9524F6D817625CCA000F1574 /* Sounds */; };
 		9539CAFE17382975007579FD /* CMTPAttraction.m in Sources */ = {isa = PBXBuildFile; fileRef = 9539CAEA17382975007579FD /* CMTPAttraction.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -221,7 +216,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				27ACC9792C4F535200493D22 /* OBXKit.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -229,17 +223,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		27ACC9772C4F535200493D22 /* OBXKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = OBXKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		570E92982045CBFC004526EF /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 		95098BE5173A89EE0082F041 /* snakes.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = snakes.txt; sourceTree = "<group>"; };
 		951421991757A42800FD256D /* Archive.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Archive.ttf; sourceTree = "<group>"; };
 		951421B11757F24500FD256D /* StaticBold36.fnt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = StaticBold36.fnt; sourceTree = "<group>"; };
 		951421B21757F24600FD256D /* StaticBold36.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = StaticBold36.png; sourceTree = "<group>"; };
 		951421B51757F28A00FD256D /* StaticBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = StaticBold.ttf; sourceTree = "<group>"; };
-		95213F1E1762223B000CE162 /* libTestFlight.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libTestFlight.a; sourceTree = "<group>"; };
-		95213F1F1762223B000CE162 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
-		95213F201762223B000CE162 /* release_notes.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = release_notes.md; sourceTree = "<group>"; };
-		95213F211762223B000CE162 /* TestFlight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestFlight.h; sourceTree = "<group>"; };
 		95213F25176223DD000CE162 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		9524F6D817625CCA000F1574 /* Sounds */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Sounds; sourceTree = "<group>"; };
 		9539CAE917382975007579FD /* CMTPAttraction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMTPAttraction.h; sourceTree = "<group>"; };
@@ -562,17 +551,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		95213F1D1762223B000CE162 /* TestFlightSDK1.2.5 */ = {
-			isa = PBXGroup;
-			children = (
-				95213F1E1762223B000CE162 /* libTestFlight.a */,
-				95213F1F1762223B000CE162 /* README.md */,
-				95213F201762223B000CE162 /* release_notes.md */,
-				95213F211762223B000CE162 /* TestFlight.h */,
-			);
-			path = TestFlightSDK1.2.5;
-			sourceTree = "<group>";
-		};
 		9539CAE817382974007579FD /* CMTraerPhysics */ = {
 			isa = PBXGroup;
 			children = (
@@ -630,7 +608,6 @@
 		95FEE5721733F79500733CE8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				27ACC9772C4F535200493D22 /* OBXKit.framework */,
 				95F8B9A5175FAD6F000C5B34 /* AVFoundation.framework */,
 				95FEE7131734076C00733CE8 /* libxml2.dylib */,
 				95213F25176223DD000CE162 /* libz.dylib */,
@@ -654,7 +631,6 @@
 		95FEE5791733F79500733CE8 /* Rattlesnakes */ = {
 			isa = PBXGroup;
 			children = (
-				95213F1D1762223B000CE162 /* TestFlightSDK1.2.5 */,
 				9539CAE817382974007579FD /* CMTraerPhysics */,
 				95FEE5821733F79500733CE8 /* AppDelegate.h */,
 				95FEE5831733F79500733CE8 /* AppDelegate.m */,
@@ -1476,9 +1452,7 @@
 				951421B31757F24900FD256D /* StaticBold36.fnt in Resources */,
 				570E92992045CBFC004526EF /* Media.xcassets in Resources */,
 				951421B41757F24900FD256D /* StaticBold36.png in Resources */,
-				95213F231762223B000CE162 /* README.md in Resources */,
 				954829ED1890764000BA1D18 /* death@2x.png in Resources */,
-				95213F241762223B000CE162 /* release_notes.md in Resources */,
 				9524F6D917625CCA000F1574 /* Sounds in Resources */,
 				95E72C351770B5A50000DBD9 /* StaticBold36.tes in Resources */,
 				95E72C371770C0240000DBD9 /* Archive36.tes in Resources */,
