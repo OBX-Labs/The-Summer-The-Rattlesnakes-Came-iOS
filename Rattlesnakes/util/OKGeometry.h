@@ -36,18 +36,18 @@ CG_INLINE OKPoint OKPointMake(CGFloat x, CGFloat y, CGFloat z);
 
 CG_INLINE OKSize OKSizeMake(CGFloat width, CGFloat height, CGFloat depth);
 
-CG_EXTERN const OKPoint OKPointZero
-CG_AVAILABLE_STARTING(__MAC_10_0, __IPHONE_2_0);
+//CG_EXTERN const OKPoint OKPointZero
+//CG_AVAILABLE_STARTING(__MAC_10_0, __IPHONE_2_0);
 
 /* Return true if `point1' and `point2' are the same, false otherwise. */
 
-CG_EXTERN bool OKPointEqualToPoint(OKPoint point1, OKPoint point2)
-CG_AVAILABLE_STARTING(__MAC_10_0, __IPHONE_2_0);
+//CG_EXTERN bool OKPointEqualToPoint(OKPoint point1, OKPoint point2)
+//CG_AVAILABLE_STARTING(__MAC_10_0, __IPHONE_2_0);
 
 /* Return true if `size1' and `size2' are the same, false otherwise. */
-
-CG_EXTERN bool OKSizeEqualToSize(OKSize size1, OKSize size2)
-CG_AVAILABLE_STARTING(__MAC_10_0, __IPHONE_2_0);
+//
+//CG_EXTERN bool OKSizeEqualToSize(OKSize size1, OKSize size2)
+//CG_AVAILABLE_STARTING(__MAC_10_0, __IPHONE_2_0);
 
 
 ////////////////PROCESSING////////////////
