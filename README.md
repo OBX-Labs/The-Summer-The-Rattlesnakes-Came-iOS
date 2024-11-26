@@ -1,5 +1,8 @@
 # The-Summer-The-Rattlesnakes-Came-iOS
 
+> :warning: This is the archived version of the code from before I started migrating to iOS 17+. Do not use this branch or merge into any other branch. This branch is stale and for reference purposes only. 
+
+
 This program developed as part of the Poetry for Excitable [Mobile] Media, using the NextText architecture for interactive and dynamic texts. <br/>
 Project lead: Jason Edward Lewis. <br/>
 Technical Lead: Bruno Nadeau. <br/>
