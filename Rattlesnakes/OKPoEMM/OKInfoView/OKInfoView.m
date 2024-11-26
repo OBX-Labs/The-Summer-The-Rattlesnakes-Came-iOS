@@ -50,7 +50,7 @@
             limitedEdition = [[OKNavigationController alloc] initWithRootViewController:rLimitedEdition andParent:self];
             [limitedEdition setTitle:@"Register"];
             [limitedEdition.tabBarItem setImage:[UIImage imageNamed:[icons objectForKey:@"limitededition"]]];
-            [tbcItems addObject:limitedEdition];
+//            [tbcItems addObject:limitedEdition];
         }
         
         // Guest Poets at version 2 or more
@@ -58,7 +58,7 @@
         {
             OKGuestPoets *rGuestPoets = [[OKGuestPoets alloc] initWithStyle:UITableViewStylePlain title:@"Poets" icon:[UIImage imageNamed:[icons objectForKey:@"guestpoets"]]];
             guestPoets = [[OKNavigationController alloc] initWithRootViewController:rGuestPoets andParent:self];
-            [tbcItems addObject:guestPoets];
+//            [tbcItems addObject:guestPoets];
         }
         
         // User Texts at version 3 or more
@@ -66,14 +66,14 @@
         {
             OKUserTexts *rUserTexts = [[OKUserTexts alloc] initWithStyle:UITableViewStylePlain title:@"User Texts" icon:[UIImage imageNamed:[icons objectForKey:@"usertexts"]]];
             userTexts = [[OKNavigationController alloc] initWithRootViewController:rUserTexts andParent:self];
-            [tbcItems addObject:userTexts];
+//            [tbcItems addObject:userTexts];
         }
         
         // Customizable at version 4 or more
         if(version >= 4)
         {
             customize = [[OKNavigationController alloc] initWithRootViewController:nil andParent:self];
-            [tbcItems addObject:customize];
+//            [tbcItems addObject:customize];
         }
         
         // Share shows on every versions
@@ -90,7 +90,7 @@
         }
         [rShare setDisplayViewController:self];
         share = [[OKNavigationController alloc] initWithRootViewController:rShare andParent:self];
-        [tbcItems addObject:share];
+//        [tbcItems addObject:share];
                 
         [tbc setViewControllers:tbcItems animated:YES];
         [self.view addSubview:tbc.view];
